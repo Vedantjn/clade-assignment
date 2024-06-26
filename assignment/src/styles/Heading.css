@@ -1,0 +1,63 @@
+.heading-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.first-half {
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.5em;
+    margin: 1rem 1rem;
+    margin-left: 2.1em;
+    font-weight: bold;
+}
+
+.posted {
+    font-size: 0.7rem;
+    color: #888888;
+}
+
+.indicator {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #067647;
+}
+
+.status {
+    color: #067647;
+    background-color: #bae0c9;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    border: 1px solid #067647; 
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.second-half {
+    display: flex;
+    margin: 1rem 1rem;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+    align-items: center;
+    font-weight: 300;
+    gap: 2rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.salary {
+    display: flex;
+    align-items: center;
+}

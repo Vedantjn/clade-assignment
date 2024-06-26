@@ -1,0 +1,78 @@
+.navbar {
+    width: 100%;
+    font-size: 14px; /* Add this line to reduce overall font size */
+}
+
+.nav-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    align-items: center;
+    border-bottom: #B0B0B0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav-logo button {
+    color: #DC4A2D;
+    background-color: #E7E7E7;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+.nav-center {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-center-first {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+svg {
+    color: black;
+    margin-right: 0.25rem;
+    width: 1em; 
+    height: 1em;
+}
+
+.nav-center-first button {
+    color: white;
+    background-color: #DC4A2D;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 49px;
+}
+
+.nav-center-third a,
+.nav-center-second a {
+    text-decoration: none;
+    color: #B0B0B0;
+    margin: 1rem 1rem;
+}
+
+.nav-end {
+    display: flex;
+    align-items: center;
+}
+
+.nav-end-bell{
+    cursor: pointer;
+}
+
+.nav-end-profile-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-end-profile img{
+    cursor: pointer;
+    width: 2rem;
+}

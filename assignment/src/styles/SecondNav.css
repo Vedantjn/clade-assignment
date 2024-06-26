@@ -1,0 +1,39 @@
+.second-nav-container {
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+  }
+  
+  .second-nav-container a {
+    text-decoration: none;
+    color: #888888;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+    position: relative;
+  }
+  
+  .second-nav-container a:hover,
+  .second-nav-container a:focus {
+    color: #dc4a2d;
+  }
+  
+  .second-nav-container a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 0; */
+    height: 2px;
+    background-color: #dc4a2d;
+    transition: width 0.3s ease;
+  }
+  
+  .second-nav-container .active {
+    color: #dc4a2d;
+  }
+  
+  .second-nav-container .active::after {
+    width: 30%; /* Adjust this value to control the length of the border */
+  }
