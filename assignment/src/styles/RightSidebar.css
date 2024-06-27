@@ -1,0 +1,61 @@
+.right-sidebar {
+    width: 20%;
+    position: fixed;
+    top: calc(6.7rem + 3rem); /* Adjust based on your layout */
+    right: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto; /* Enable scrolling */
+  }
+  
+  .sidebar-buttons {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    }
+
+.delete-job, .edit-job {
+    font-size: 0.7rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;display: flex;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .delete-job{
+    background-color: #fde1dc;
+    color: red;
+    border: 0.1rem solid red;
+  }
+  
+  .edit-job {
+    background-color: #DC4A2D;
+    color: white;
+  }
+  
+  .sidebar-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .item-label {
+    font-weight: bold;
+  }
+  
+  .item-value {
+    font-size: 1.2rem;
+  }
+  
