@@ -5,7 +5,7 @@
     /* gap: 6rem; */
     width: 50%;
     justify-content: space-between;
-    color: #6E6D6D;
+    color: #3D3D3D;
     margin-bottom: 2rem;
 }
 
@@ -25,7 +25,7 @@
 .skill-value {
     display: inline-block; /* Ensures the border fits tightly around the content */
     color: black;
-    border: 1px solid #6E6D6D;
+    border: 1px solid #3D3D3D;
     border-radius: 0.5rem;
     padding: 0.2rem 0.5rem; /* Adjust padding as needed */
     font-size: 0.9rem;
@@ -43,5 +43,5 @@
 
 .language-type, .type-type, .experience-type{
     font-weight: bold;
-    color: black;
+    color: #3D3D3D;
 }

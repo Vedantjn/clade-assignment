@@ -5,7 +5,7 @@ const Heading = () => {
     return (
         <div className="heading-container">
             <div className="first-half">
-                <div className="heading">
+                <div className="heading-heading">
                     Senior Product Designer
                 </div>
                 <div className="posted">
