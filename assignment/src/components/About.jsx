@@ -7,10 +7,10 @@ const About = () => {
       <div className="section">
         <div className="section-heading">About the job</div>
         <ul className="list-items">
-          <li>Handle the UI/UX design</li>
-          <li>Work on researching latest web application designs & trends</li>
-          <li>Conceptualize and visualize</li>
-          <li>Create graphics content and perform related tasks</li>
+          <li>1. Handle the UI/UX design</li>
+          <li>2. Work on researching latest web application designs & trends</li>
+          <li>3. Conceptualize and visualize</li>
+          <li>4. Create graphics content and perform related tasks</li>
         </ul>
       </div>
 
