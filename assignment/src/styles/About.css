@@ -1,27 +1,33 @@
 .about-container {
-    margin: 2rem 2rem;
-    margin-left: 3rem;
-    color: #6e6d6d;
-  }
-  
-  .section {
-    margin-bottom: 1.5rem;
-  }
-  
-  .section-heading {
-    font-weight: bold;
-  }
-  
-  .list-items {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  ul {
-    padding-left: 20px;
-  }
-  
-  .location {
-    margin-top: 1rem;
-  }
-  
+  margin: 2rem 2rem;
+  margin-left: 4rem;
+  color: #6e6d6d;
+}
+
+.section {
+  margin-bottom: 1rem; /* Reduced the bottom margin */
+}
+
+.section-heading {
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Added bottom margin to separate from list items */
+}
+
+.list-items {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0.5rem; /* Added bottom margin to separate from next section */
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0; /* Removed default margin */
+}
+
+ul li {
+  margin-bottom: 0.5rem; /* Reduced spacing between list items */
+}
+
+.location {
+  margin-top: 1rem;
+}
