@@ -15,9 +15,9 @@
 }
 
 .heading-heading {
-    font-size: em;
-    margin: 1rem 1rem;
-    margin-left: 3em;
+    font-size: 1.5em;
+    margin: 1rem;
+    margin-left: 2em;
     font-weight: bold;
 }
 
@@ -55,12 +55,7 @@
     gap: 2rem;
 }
 
-.location {
-    display: flex;
-    align-items: center;
-}
-
-.salary {
+.location, .salary {
     display: flex;
     align-items: center;
 }
